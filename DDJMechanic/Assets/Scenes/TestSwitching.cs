@@ -75,7 +75,7 @@ public class TestSwitching : MonoBehaviour
             // Switch from desktop to VR mode
             XRDisplaySubsystem xrDisplay = GetXRDisplaySubsystem();
             // Start the XR display subsystem
-            xrDisplaySubsystem.Start();
+            xrDisplay.Start();
 
             // Disable the desktop camera and enable the VR camera
             if (desktopPlayerCamera != null)
